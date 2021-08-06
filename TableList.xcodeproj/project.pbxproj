@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		AACC4CE126B84D02007E2B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC4CE026B84D02007E2B19 /* AppDelegate.swift */; };
 		AACC4CE326B84D02007E2B19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC4CE226B84D02007E2B19 /* SceneDelegate.swift */; };
-		AACC4CE526B84D02007E2B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC4CE426B84D02007E2B19 /* ViewController.swift */; };
 		AACC4CE826B84D02007E2B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACC4CE626B84D02007E2B19 /* Main.storyboard */; };
 		AACC4CEA26B84D06007E2B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACC4CE926B84D06007E2B19 /* Assets.xcassets */; };
 		AACC4CED26B84D06007E2B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACC4CEB26B84D06007E2B19 /* LaunchScreen.storyboard */; };
+		AACC4CF926B9D164007E2B19 /* MusicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC4CF826B9D164007E2B19 /* MusicTableViewController.swift */; };
+		AACC4CFB26B9D177007E2B19 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC4CFA26B9D177007E2B19 /* MovieTableViewController.swift */; };
+		AACC4CFD26B9DDDA007E2B19 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC4CFC26B9DDDA007E2B19 /* Song.swift */; };
+		AACC4CFF26B9DF2D007E2B19 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC4CFE26B9DF2D007E2B19 /* DataManager.swift */; };
+		AACC4D0126BA4BE0007E2B19 /* DetailMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC4D0026BA4BE0007E2B19 /* DetailMusicViewController.swift */; };
+		AACC4D0326BAC987007E2B19 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC4D0226BAC987007E2B19 /* MovieTableViewCell.swift */; };
+		AACC4D0526BC4C41007E2B19 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC4D0426BC4C41007E2B19 /* Movie.swift */; };
+		AACC4D0926BD493B007E2B19 /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACC4D0826BD493B007E2B19 /* DetailMovieViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AACC4CDD26B84D02007E2B19 /* TableList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACC4CE026B84D02007E2B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AACC4CE226B84D02007E2B19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AACC4CE426B84D02007E2B19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AACC4CE726B84D02007E2B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AACC4CE926B84D06007E2B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AACC4CEC26B84D06007E2B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AACC4CEE26B84D06007E2B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AACC4CF826B9D164007E2B19 /* MusicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewController.swift; sourceTree = "<group>"; };
+		AACC4CFA26B9D177007E2B19 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		AACC4CFC26B9DDDA007E2B19 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		AACC4CFE26B9DF2D007E2B19 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		AACC4D0026BA4BE0007E2B19 /* DetailMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMusicViewController.swift; sourceTree = "<group>"; };
+		AACC4D0226BAC987007E2B19 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		AACC4D0426BC4C41007E2B19 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		AACC4D0826BD493B007E2B19 /* DetailMovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		AACC4CDF26B84D02007E2B19 /* TableList */ = {
 			isa = PBXGroup;
 			children = (
-				AACC4CE026B84D02007E2B19 /* AppDelegate.swift */,
-				AACC4CE226B84D02007E2B19 /* SceneDelegate.swift */,
-				AACC4CE426B84D02007E2B19 /* ViewController.swift */,
-				AACC4CE626B84D02007E2B19 /* Main.storyboard */,
+				AACC4CF426B84D18007E2B19 /* AppDelegate */,
+				AACC4CF726B84D5D007E2B19 /* Model */,
+				AACC4CF626B84D4D007E2B19 /* View */,
+				AACC4CF526B84D26007E2B19 /* Controller */,
 				AACC4CE926B84D06007E2B19 /* Assets.xcassets */,
-				AACC4CEB26B84D06007E2B19 /* LaunchScreen.storyboard */,
 				AACC4CEE26B84D06007E2B19 /* Info.plist */,
 			);
 			path = TableList;
+			sourceTree = "<group>";
+		};
+		AACC4CF426B84D18007E2B19 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AACC4CE226B84D02007E2B19 /* SceneDelegate.swift */,
+				AACC4CE026B84D02007E2B19 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AACC4CF526B84D26007E2B19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AACC4CF826B9D164007E2B19 /* MusicTableViewController.swift */,
+				AACC4D0026BA4BE0007E2B19 /* DetailMusicViewController.swift */,
+				AACC4CFA26B9D177007E2B19 /* MovieTableViewController.swift */,
+				AACC4D0226BAC987007E2B19 /* MovieTableViewCell.swift */,
+				AACC4D0826BD493B007E2B19 /* DetailMovieViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AACC4CF626B84D4D007E2B19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AACC4CEB26B84D06007E2B19 /* LaunchScreen.storyboard */,
+				AACC4CE626B84D02007E2B19 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AACC4CF726B84D5D007E2B19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AACC4CFC26B9DDDA007E2B19 /* Song.swift */,
+				AACC4CFE26B9DF2D007E2B19 /* DataManager.swift */,
+				AACC4D0426BC4C41007E2B19 /* Movie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +190,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AACC4CE526B84D02007E2B19 /* ViewController.swift in Sources */,
+				AACC4CFB26B9D177007E2B19 /* MovieTableViewController.swift in Sources */,
+				AACC4CFF26B9DF2D007E2B19 /* DataManager.swift in Sources */,
+				AACC4D0526BC4C41007E2B19 /* Movie.swift in Sources */,
 				AACC4CE126B84D02007E2B19 /* AppDelegate.swift in Sources */,
 				AACC4CE326B84D02007E2B19 /* SceneDelegate.swift in Sources */,
+				AACC4CF926B9D164007E2B19 /* MusicTableViewController.swift in Sources */,
+				AACC4D0126BA4BE0007E2B19 /* DetailMusicViewController.swift in Sources */,
+				AACC4D0326BAC987007E2B19 /* MovieTableViewCell.swift in Sources */,
+				AACC4D0926BD493B007E2B19 /* DetailMovieViewController.swift in Sources */,
+				AACC4CFD26B9DDDA007E2B19 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
